@@ -1,0 +1,27 @@
+.cover {
+    max-width: 1184px;
+    margin: 93px auto 0;
+    background-image: url(../../images/__background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+@media all and (max-width: 1024px) {
+    .cover {
+        background-image: url(../../images/__background1024.jpg);
+        margin-top: 92px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .cover {
+        background-image: url(../../images/__background768.jpg);
+        margin-top: 88px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .cover {
+        background-image: url(../../images/__background320.jpg);
+    }
+}
