@@ -8,11 +8,11 @@
 
 @media all and (max-width: 768px) {
     .footer {
-        margin-top: 88px;
+        margin-top: 87px;
     }
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 720px) {
     .footer {
         flex-direction: column;
         margin-top: 32px;

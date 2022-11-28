@@ -1,6 +1,6 @@
 .footer__copyright {
     margin: 2px 0 0 0;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -19,7 +19,7 @@
     }
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 720px) {
     .footer__copyright {
         margin-left: 16px;
         line-height: 100%;

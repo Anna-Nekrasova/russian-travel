@@ -16,12 +16,13 @@
 @media all and (max-width: 768px) {
     .cover {
         background-image: url(../../images/__background768.jpg);
-        margin-top: 88px;
+        margin-top: 87px;
     }
 }
 
 @media all and (max-width: 320px) {
     .cover {
         background-image: url(../../images/__background320.jpg);
+        margin-top: 64px;
     }
 }

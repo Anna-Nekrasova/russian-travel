@@ -17,7 +17,7 @@
     }
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 720px) {
     .footer__links {
         flex-direction: column;
         margin-left: 16px;

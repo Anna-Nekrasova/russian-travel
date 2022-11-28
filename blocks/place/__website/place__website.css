@@ -1,12 +1,13 @@
 .place__website {
-    list-style-type: none;
-    padding-left: 0;
     margin: 0;
+    display: flex;
+    flex-direction: column;
     align-self: end;
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 320px) {
     .place__website {
-        margin: 0 16px;
+        margin-left: 16px;
+        margin-right: 16px;
     }
 }

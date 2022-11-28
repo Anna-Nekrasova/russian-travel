@@ -8,7 +8,7 @@
     padding: 0 48px 0;
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1279px) {
     .photo-grid {
         grid-template-columns: repeat(3, 1fr);
         margin-top: 93px;
@@ -16,7 +16,7 @@
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1023px) {
     .photo-grid {
         grid-template-columns: repeat(2, 1fr);
         padding: 0 24px 0;
@@ -25,11 +25,17 @@
     }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 767px) {
     .photo-grid {
         grid-template-columns: 1fr;
         padding: 0 16px 0;
         gap: 12px;
         margin-top: 64px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .photo-grid {
+        margin-top: 66px;
     }
 }
