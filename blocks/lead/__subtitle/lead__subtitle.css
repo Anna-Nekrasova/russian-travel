@@ -9,15 +9,17 @@
     line-height: 120%;
 }
 
-@media all and (max-width: 691px) {
+@media all and (max-width: 750px) {
     .lead__subtitle {
         font-size: 16px;
         line-height: 125%;
     }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 490px) {
     .lead__subtitle {
         margin-top: 14px;
+        margin-left: 16px;
+        margin-right: 16px;
     }
 }

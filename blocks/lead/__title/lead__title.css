@@ -9,9 +9,25 @@
     line-height: 104%;
 }
 
-@media all and (max-width: 691px) {
+@media all and (max-width: 750px) {
+    .lead__title {
+        margin-left: 24px;
+        margin-right: 24px;
+        font-size: 60px;
+    }
+}
+
+@media all and (max-width: 490px) {
     .lead__title {
         font-size: 40px;
         line-height: 110%;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}
+
+@media all and (max-width: 330px) {
+    .lead__title {
+        margin: 0 auto;
     }
 }

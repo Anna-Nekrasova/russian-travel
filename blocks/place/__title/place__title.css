@@ -15,10 +15,15 @@
     }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 490px) {
     .place__title {
         font-size: 32px;
         line-height: 109%;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .place__title {
         margin-left: 16px;
         margin-right: 16px;
     }

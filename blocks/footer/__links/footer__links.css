@@ -5,7 +5,7 @@
     margin: 0;
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1260px) {
     .footer__links {
         margin-left: 48px;
     }
